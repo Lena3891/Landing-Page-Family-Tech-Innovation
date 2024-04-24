@@ -1,67 +1,75 @@
-
-@media only screen and (max-width: 600px) {
 body {
-  font-family: Arial, sans-serif;
-  font-size: 14p;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #f5c7c7;
-  text-align: center;
-  padding: 20px 0;
+    background-color: #155263;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    height: 50%;
 }
+
 h1 {
-  font-size: 1.5em;
-  text-align: center;
+    font-size: 2.5em;
+    text-align: center;
 }
+
 img {
-  width: 200px;
-  height: 100px;
+    max-width: 50%; 
+    height: auto;  
+    display: block;
+    margin: 0 auto; 
 }
 
 h2 {
-  font-size: 1.2em;
-  text-align: center;
+    font-size: 1.7em;
+    text-align: center;
 }
+
+p {
+    text-align: center;
+    font-size: 16px;
 }
 
 main {
-  padding: 20px;
+    padding: 40px;
 }
 
 section {
-  margin-bottom: 20px;
+    margin-bottom: 40px;
 }
+
 button {
-  background-color: #f5c7c7;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
-  border: 1px solid black;
-  align-items: center;
-  width: 50%;
-  height: 50px;
-  margin: 0 auto;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    background-color: #155263;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    align-items: center;
+    width: 40%;
+    height: 30px;
+    margin: 0 auto;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-
-button:hover {
-  background-color: #e4a3a3;
-}
-  
-
 
 footer {
-  background-color: #f5c7c7;
-  width: 100%;
-  color: black;
-  text-align: center;
-  padding: 10px 0;
-}
-
+    background-color: #155263;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    /* Positionierung des Footers am unteren Rand der Seite */
+    position: relative;
+    margin-top: auto; /* Setzt den Abstand von oben, um den Footer nach unten zu schieben */
 }
 
 
